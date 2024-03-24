@@ -73,10 +73,9 @@
   }
 
   function displayError(thisForm, error) {
-    let SuccessMessage = "Thanks for connecting with us!"
     thisForm.querySelector('.loading').classList.remove('d-block');
     // thisForm.querySelector('.error-message').innerHTML = error;
-    thisForm.querySelector('.sent-message').innerHTML = SuccessMessage;
+    thisForm.querySelector('.sent-message').innerHTML = error;
     // thisForm.querySelector('.error-message').classList.add('d-block');
     thisForm.querySelector('.sent-message').classList.add('d-block');
   }
