@@ -58,8 +58,12 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #e65d5f;
-  color: #fff;
+  background: #ffeb00;
+  border: 2px solid #a900ff;
+}
+
+.back-to-top:hover i {
+  color: #000000;
 }
 
 .back-to-top.active {
@@ -566,37 +570,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.clients .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #a900ff;
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #a900ff;
-}
-
-.clients .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
-  filter: grayscale(100);
-}
-
-.clients .swiper-slide img:hover {
-  opacity: 1;
-  filter: none;
-}
-
-/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about .container {
@@ -733,7 +706,6 @@ section {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
-  /* background: #252525; */
   transition: 0.3s;
   position: relative;
 }
@@ -752,7 +724,7 @@ section {
 
 .tabs .icon-box i {
   float: left;
-  color: #000000;
+  color: #a900ff;
   font-size: 40px;
   line-height: 0;
 }
@@ -785,95 +757,6 @@ section {
   font-size: 14px;
 }
 
-
-
-
-
-
-
-.tabs .nav-tabs {
-  border: 0;
-}
-
-.tabs .nav-link {
-  border: 1px solid #b9b9b9;
-  padding: 15px;
-  transition: 0.3s;
-  color: #111111;
-  border-radius: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.tabs .nav-link i {
-  padding-right: 15px;
-  font-size: 48px;
-}
-
-.tabs .nav-link h4 {
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0;
-}
-
-.tabs .nav-link:hover {
-  color: #a900ff;
-}
-
-.tabs .nav-link.active {
-  background: #a900ff;
-  color: #fff;
-  border-color: #a900ff;
-}
-
-@media (max-width: 768px) {
-  .tabs .nav-link i {
-    padding: 0;
-    line-height: 1;
-    font-size: 36px;
-  }
-}
-
-@media (max-width: 575px) {
-  .tabs .nav-link {
-    padding: 15px;
-  }
-
-  .tabs .nav-link i {
-    font-size: 24px;
-  }
-}
-
-.tabs .tab-content {
-  margin-top: 30px;
-}
-
-.tabs .tab-pane h3 {
-  font-weight: 600;
-  font-size: 26px;
-}
-
-.tabs .tab-pane ul {
-  list-style: none;
-  padding: 0;
-}
-
-.tabs .tab-pane ul li {
-  padding-bottom: 10px;
-}
-
-.tabs .tab-pane ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #a900ff;
-}
-
-.tabs .tab-pane p:last-child {
-  margin-bottom: 0;
-}
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -892,7 +775,7 @@ section {
 }
 
 .services .icon-box:hover p,
-.services .icon-box:hover a,
+.services .icon-box:hover h4,
 .services .icon-box:hover i {
   color: #ffffff;
   cursor: pointer;
@@ -1207,94 +1090,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #2b2b2b;
-  text-align: center;
-  border-radius: 8px;
-  position: relative;
-  overflow: hidden;
-}
-
-.pricing .box h3 {
-  font-weight: 400;
-  padding: 15px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.pricing .box h4 {
-  font-size: 42px;
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing .box h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing .box h4 span {
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing .box ul {
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing .box ul li {
-  padding-bottom: 16px;
-}
-
-.pricing .box ul i {
-  color: #a900ff;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing .box ul .na {
-  color: rgba(255, 255, 255, 0.5);
-  text-decoration: line-through;
-}
-
-.pricing .box .btn-wrap {
-  padding: 15px;
-  text-align: center;
-}
-
-.pricing .box .btn-buy {
-  display: inline-block;
-  padding: 10px 40px 12px 40px;
-  border-radius: 4px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-}
-
-.pricing .box .btn-buy:hover {
-  border-color: #fff;
-}
-
-.pricing .featured {
-  background: #a900ff;
-}
-
-/*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq .faq-list {
@@ -1452,7 +1247,7 @@ section {
   color: #a900ff;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #f8d4d5;
+  border: 2px dotted #ffeb00;
 }
 
 .contact .info-box h3 {
@@ -1551,7 +1346,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #e35052;
+  background: #ffeb00;
+  color: #000000;
 }
 
 @keyframes animate-loading {
