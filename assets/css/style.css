@@ -994,6 +994,9 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
