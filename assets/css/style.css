@@ -79,7 +79,7 @@ h6 {
   background: #3bbf69;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 12px 0;
 }
 
 #header.header-scrolled {
@@ -369,7 +369,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   /* background: url("../img/andromeda-img.png") right no-repeat; */
   background-color: #ffffff;
   background-size: cover;
@@ -389,6 +389,7 @@ h6 {
 
 #hero .banner-text {
   margin: auto;
+  z-index: 1;
 }
 
 #hero h1 {
@@ -465,7 +466,7 @@ h6 {
 
 @media (max-height: 500px) {
   #hero {
-    height: 120vh;
+    /* height: 120vh; */
   }
 }
 
