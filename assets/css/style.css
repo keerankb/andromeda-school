@@ -682,7 +682,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 .counts .count-box {
@@ -817,11 +817,12 @@ section {
 }
 
 .services .icon-box h4 {
-  margin-left: 70px;
+  /* margin-left: 24px; */
   font-weight: 700;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   font-size: 18px;
   color: #000000;
+  margin: auto auto auto 24px;
 }
 
 .services .icon-box h4 a {
