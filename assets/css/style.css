@@ -387,6 +387,10 @@ h6 {
   right: 0;
 }
 
+#hero .banner-text {
+  margin: auto;
+}
+
 #hero h1 {
   margin: 0;
   font-size: 48px;
@@ -437,6 +441,10 @@ h6 {
   #hero {
     text-align: center;
     padding-top: 58px;
+  }
+
+  #hero .banner-text {
+    margin-top: 48px;
   }
 
   #hero h1 {
