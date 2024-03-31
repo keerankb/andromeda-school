@@ -472,7 +472,7 @@ h6 {
 
 @media (max-height: 500px) {
   #hero {
-    /* height: 120vh; */
+    height: 140vh;
   }
 }
 
