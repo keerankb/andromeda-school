@@ -445,7 +445,7 @@ h6 {
   }
 
   #hero .banner-text {
-    margin-top: 80px;
+    /* margin-top: 80px; */
   }
 
   #hero h1 {
@@ -472,7 +472,7 @@ h6 {
 
 @media (max-height: 500px) {
   #hero {
-    height: 140vh;
+    height: 120vh;
   }
 }
 
