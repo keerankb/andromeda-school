@@ -416,12 +416,12 @@ h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #000000;
-  background: #3bbf69;
-  border: 2px solid #3bbf69;
+  background: #f1e6b8;
+  border: 2px solid #f1e6b8;
 }
 
 #hero .btn-get-started:hover {
-  background: #f1e6b8;
+  background: #3bbf69;
   border-color: #3bbf69;
   color: #000000;
 }
